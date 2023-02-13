@@ -17,7 +17,8 @@ public class Main {
         Expenditure expenditure1 = new Expenditure("iFone made in China", 2000);
         Sale sale = new Sale("Рога", 10000);
         Sale sale1 = new Sale("iPhone", 200000);
-        System.out.println(sale.getComment());
+        System.out.println(expenditure1.getComment());
+        System.out.println(sale1.getComment());
         Deal[] deals = {expenditure, expenditure1, sale, sale1};
         System.out.println("Сальдо баланса по проведенным сделкам до уплаты налогов: " + company.applyDeals(deals) + " руб.");
 

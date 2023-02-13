@@ -23,6 +23,4 @@ public class Deal {
         this.debitChange = debitChange;
     }
 
-    public Deal() {
-    }
 }
